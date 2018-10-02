@@ -1,0 +1,305 @@
+<!doctype html>
+<html>
+
+ <head>
+    <title>Personal Website</title>
+	{% load static %}
+    <link type="text/css" rel="stylesheet"  href="{% static 'css/style.css' %}">
+    <link href="https://fonts.googleapis.com/css?family=Julius+Sans+One|Montserrat" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+     
+</head>
+<body>
+                        
+	<img src="{% static 'IMAGES/5.jpeg' %}" height="600px" width="100%">
+    <section class="intro">
+        <h1>I			AM 			NEHA</h1>
+        <h3>Front-end 		& 			Back-end Developer</h3>
+        <a href="https://www.facebook.com/" class="fa fa-facebook fb"></a>
+        <a href="https://twitter.com/login" class="fa fa-twitter twitter"></a>
+        <a href="https://plus.google.com/" class="fa fa-google-plus google"></a>
+        <a href="https://www.linkedin.com/" class="	fa fa-linkedin linkedin"></a>
+    </section>    
+    <section class="aboutme">
+        <h2>About Us</h2>
+        <div class="course">(UI DESIGNER)</div>
+        <div class="circle">
+        <div class="list1">
+        	
+        	
+            <ul>
+                <li>D.O.B -</li><br>
+                <li>PHONE -</li><br>
+                <li>WEBSITE -</li><br>
+                <li>ADDRESS -</li><br>
+            </ul>
+        </div>
+        <div class="list2">
+            <ul>
+                <li>4-AUGUST-1998</li><br>
+                <li>+917536806712</li><br>
+                <li>MY RESUME</li><br>
+                <li>191 PASCHIMPURI SASTRIPURAM ROAD SIKANDRA, AGRA</li><br>
+            </ul>
+       </div>
+        </div>
+    </section>
+    <section class="section1"></section>
+    	
+                <div class="touch2">
+                       <h9>
+                            Stay In Touch
+                        </h9>
+						<form method="POST" action="/index">
+							{% csrf_token %}
+
+                            {{form.mail}}
+							<input type="email" placeholder="Email Id">
+                           <button class="theme-button">Suscribe</button>
+                        </form>
+                    </div>
+                   
+ 
+
+
+   
+    <section class="skills"><a class="skl" href="#">Skills</a></section>
+           <div class="main main1">
+           
+               <div class="popup">
+                   <div class="skills-bg">  
+                     <h5 class="myskills">My Skills</h5>
+                     <div class="technical">
+                         <h7>[My Technical Skill]</h7>
+                         <div class="set">
+                             <h6>html</h6>
+                             <div class="html"><div></div></div>
+                        </div>
+
+<p>
+<div class="container">
+  <div class="skills2 html2">90%</div>
+</div>
+</p>
+
+
+
+
+                        <div class="set">
+                             <h6>CSS</h6>
+                             <div class="css"><div></div></div>
+                        </div>
+
+
+<p>
+   <div class="container">
+  <div class="skills2 css2">80%</div>
+</div></p>
+                         <div class="set">
+                         <h6>Javascript</h6>
+                         <div class="javscript"><div></div></div>
+                         </div>
+
+
+<p>
+                         <div class="container">
+  <div class="skills2 js">65%</div>
+</div></p>
+                         <div class="set">
+                         <h6>JQuery</h6>
+                         <div class="jquery"><div></div></div>
+                        </div>
+
+
+<p>
+                        <div class="container">
+  <div class="skills2 jquery2">60%</div>
+</div></p>
+                         <div class="set">
+                         <h6>Bootstrap</h6>
+                         <div class="boostrap"><div></div></div>
+                        </div>
+
+<p>
+                        <div class="container">
+  <div class="skills2 bootstrap2">80%</div>
+</div></p>
+                         <div class="set">
+                         <h6>Python</h6>
+                         <div class="python"><div></div></div>
+                        </div>
+
+<p>
+
+                        <div class="container">
+  <div class="skills2 python2">65%</div>
+</div></p>
+                         <div class="set">
+                         <h6>Django</h6>
+                         <div class="django"><div></div></div>
+                        </div>
+      <p>
+<div class="container">
+  <div class="skills2 django2">75%</div>
+</div></p>
+
+<p>
+     <div class="set">
+                         <h6>Java</h6>
+                         <div class="java"><div></div></div>
+                        </div>
+
+    <div class="container">
+  <div class="skills2 java2">75%</div>  
+    </div></p>
+                 
+
+                        </div>
+                       </div>
+                     <div class="myhobbies"><h8>[My hobbies]</h8>
+                     	<article class="article1">
+
+
+                     			<ul class="latest-news">
+
+                        <li><span class="fa fa-long-arrow-right"></span>Playing Badminton </li>
+                        <li><span class="fa fa-long-arrow-right"></span>Listening Songs</li>
+                        <li><span class="fa fa-long-arrow-right"></span>Reading books </li>
+                        
+                    </ul>                        <
+
+
+
+
+
+
+                     		
+                     			
+                     			
+                     			
+                    
+
+                     	</article>
+
+
+
+                     </div>
+               </div> 
+            <div class="close"><a href="#">&#9587</a></div>
+    
+    
+    </div>
+    <section class="works"><a class="wrk" href="#">Works</a></section>
+    <div class="main main2">
+        <div class="bg"></div>
+     <div class="popup">
+
+     	
+     		<figure class="figure2">
+     			<img src="{% static 'IMAGES/contact1.jpg' %}" height= "435px" width="435px">
+                
+               
+     			<img src="{% static 'IMAGES/emporium.png' %}" height= "435px" width="435px">
+     			<img src="{% static 'IMAGES/home.png' %}" height= "435px" width="435px">
+     			<img src="{% static 'IMAGES/gallary.PNG' %}" height= 435px" width="435px">
+     			<img src="{% static 'IMAGES/icecream.PNG' %}"height= "435px" width="435px">
+     			<img src="{% static 'IMAGES/cv.PNG' %}" height= "435px" width="435px">
+                                                                      
+                 <img src="{% static 'IMAGES/apj.PNG' %}" height= "435px" width="435px">
+                 <img src="{% static 'IMAGES/building.PNG' %}" height= "435px" width="435px">
+     			
+     		</figure>
+
+
+
+
+     </div>
+            <div class="close"><a href="#">&#9587</a></div>
+    
+    
+    </div>
+    <section class="contact"><a class="con" href="#">Contact</a></section> 
+                            
+    
+        <div class="main main3">
+<!--            <div class="bg"></div>-->
+                <div class="popup">
+				{% csrf_token %}
+                <form method="POST" action="">
+                  <h5 class="contactinfo">Contact</h5>
+                  <p class="name">Full Name</p>
+                  <input type="text" class="nam">
+                  <p class="phone">phone</p>
+                  <input type="text" class="phn">
+                  <p class="email">Email</p>
+                  <input type="text"  class="eml">
+                  <p class="message">Message</p>
+                  <input type="" class="msg">
+                  <input type="submit" class="sendmsg">   
+                </form>
+                <div class="map"><div class="mapouter"><div class="gmap_canvas"><iframe width="956" height="400" id="gmap_canvas" src="https://maps.google.com/maps?q=Agra%20Uttar%20pradesh%20india&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe></div><style>.mapouter{text-align:right;height:400px;width:950px;}.gmap_canvas {overflow:hidden;background:none!important;height:400px;width:950px;}</style></div></div>
+                    <div class="foot">
+                        <h5 class="hire">Hire me</h5>
+                        <p class="para">Lorem ipsum dolor sit amet, Excepteur sint occaecat cupidatat non consectetur adipiscing elit.</p>
+                         <div class="location">
+                              <span class="fa fa-map-marker mark"></span>
+                              <p class="address">191 Paschimpuri Sastripuram Road ,Sikandra Agra </p>
+                        </div>
+                         <div class="mobile">
+                             <span class="fa fa-phone-square square"></span>
+                             <ul>
+                                 <li>+917536806712</li>
+                                 <li>+917017155562</li>
+                             </ul>
+                         </div>
+                         <div class="mail">
+                             <span class="fa fa-envelope-o envo"></span>
+                              <p class="envolope">chauhanneha014<br>@gmail.com</p>
+                        </div>
+                         <div class="chat">
+                              <span class="fa fa-comments-o comment"></span>
+                               <p class="comment">contact</p>
+                        </div>
+                        <hr>
+                        <div class="footer">© 2018 Connect CV. All Rights Reserved | Design by <i>Neha Chauhan</i></div>
+                    
+                    </div>
+                </div>
+                
+            <div class="close"><a href="#">&#9587</a></div>
+        </div>
+  <script type="text/javascript">
+     $(document).ready(function(){
+        $(".con").click(function(){
+            $(".main3").fadeIn();
+            
+        });
+     $(".close").click(function(){
+            $(".main3").fadeOut();
+            
+        });
+          $(".wrk").click(function(){
+            $(".main2").fadeIn();
+            
+        });
+     $(".close").click(function(){
+            $(".main2").fadeOut();
+            
+        });
+          $(".skl").click(function(){
+            $(".main1").fadeIn();
+            
+        });
+     $(".close").click(function(){
+            $(".main1").fadeOut();
+            
+        });
+     });
+  </script>
+    
+</body>
+
+
+
+</html>

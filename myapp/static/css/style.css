@@ -1,0 +1,854 @@
+
+*,body
+{
+    
+    margin: 0px;
+    padding: 0px;
+}
+
+* {box-sizing: border-box}
+
+.container {
+  width: 100%;
+ background-color: pink;
+
+}
+
+.skills2 {
+  text-align: right;
+  padding: 10px;
+  color: white;
+}
+
+.html2 {width: 90%; background-color:green;}
+.css2 {width: 80%; background-color: blue;}
+.js {width: 65%; background-color: red;}
+.jquery2 {width: 65%; background-color: purple;}
+.bootstrap2 {width: 75%; background-color: crimson;}
+.python2 {width: 75%; background-color: lightgreen;}
+.django2 {width: 75%; background-color:skyblue;}
+.java2{width: 75%;background-color: orange;}
+@import url('https://fonts.googleapis.com/css?family=Julius+Sans+One|Montserrat');
+@import url('https://fonts.googleapis.com/css?family=Julius+Sans+One');
+
+
+
+
+h2,h3,h4,
+{
+   font-family: 'Julius Sans One', sans-serif; 
+}
+h5{
+    font-size: 50px;
+    font-family: fantasy;
+    color: purple;
+
+}
+h6{
+
+    font-family: sans-serif;
+    font-size: 30px;
+    color: white;
+    margin-top: 20px;
+}
+h7{
+    font-size: 40px;
+    font-family: 'Julius Sans One', sans-serif;
+    color:red ;
+    margin-top: 4px;
+
+    
+    
+
+}
+
+h8{
+    font-size: 45px;
+    font-family: 'Julius Sans One', sans-serif;
+    color:red ;
+    position: absolute;
+    top: 1200px;
+
+}
+
+
+.intro
+{
+    position: absolute;
+    top: 0px;
+    left: 1px;
+    width: 50.6%;
+    height:600px;
+    background-image: url(../IMAGES/clg.jpg);
+    background-size: 70% 70%;
+    background-repeat: no-repeat;
+    background-size:cover;
+   
+    
+
+}
+h1
+{ 
+  position: absolute;
+  left: 10%;
+  top: 5px;
+  width: 100%;
+  height: 100%;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 70px; 
+  font-weight: 1000;
+  color: crimson;
+  text-shadow: 13px 12px 20px black;
+
+
+}
+h3
+{
+    position: absolute;
+    left: 10%;
+    top: 100px;
+    width: 100%;
+    height: 100%;
+    font-family: 'Julius Sans One', sans-serif;
+    font-size: 30px;
+}
+a
+{
+    position: absolute;
+    top: 310px;
+    
+}
+.fb
+{
+    color:white;
+    border:1px solid #337ab7;
+    background-color:#337ab7; 
+    padding:10px 15px 10px 15px; 
+    text-decoration:none;
+    left: 19%;
+    top: 560px;
+}
+.twitter
+{
+    color:white;
+    border:1 px solid #4099ff;
+    background-color:#4099ff;
+    padding:10px 12px 10px 12px;
+    text-decoration:none;
+    left: 26%;
+    top: 560px;
+}
+.google
+{
+    color:white; 
+    border:1 px solid #d34836; 
+    background-color:#d34836; 
+    padding:10px 10px 10px 10px; 
+    text-decoration:none;
+    left: 33%;
+    top: 560px;
+}
+.linkedin
+{
+    color:white; 
+    border:1 px solid #0077b5; 
+    background-color:#0077b5; 
+    padding:10px 12px 10px 12px; 
+    text-decoration:none;
+    left: 40%;
+    top: 560px;
+}
+.fb:hover
+{
+    color:#337ab7;
+    background-color:transparent;
+    border:1px solid #337ab7;
+}
+.twitter:hover
+{
+    color: #4099ff;
+    background-color: transparent;
+    border:1px solid #4099ff;
+}
+.google:hover
+{
+    color: #d34836;
+    background-color: transparent;
+    border:1px solid #d34836; 
+}
+.linkedin:hover
+{
+    color: #0077b5;
+    background-color: transparent;
+    border:1px solid #0077b5;
+}
+
+.aboutme
+{
+    position: absolute;
+    width: 49.4%;
+    height: 600px;
+    background-image: url(../IMAGES/weather.jpg);
+    background-size: 160% 100%;
+    top: 0px;
+    left: 51%;
+}
+h2
+{
+    position: absolute;
+    top: 40px; 
+    left: 20%;
+    width: 100%;
+    height: 100%;
+    font-size: 50px;
+    font-family: 'Julius Sans One', sans-serif;
+    color: purple;
+}
+.course
+{
+    position: absolute;
+    top: 100px;
+    left: 30%;
+    width: 100%;
+    height: 100%;
+    font-size: 60px;
+    color: purple;
+    font-family: fantasy;
+}
+ul
+{
+    list-style-type: none;
+}
+.list1
+{
+    
+    position: absolute;
+    top: 70px;
+    left: 14%;
+    font-size: 20px;
+    text-shadow: 6px 3px 3px green;
+    color: black;
+    font-family: fantasy;
+
+}
+
+.list2
+{
+   
+    left: 180px;
+    top:70px;
+    color: red;
+    position: absolute;
+   text-shadow: 6px 3px 3px green;
+    font-size: 20px;
+    color: black;
+    font-family: fantasy;
+
+   
+}
+.circle{
+
+position: absolute;
+top: 180px;
+left: 140px;
+height: 360px;
+width: 369px;
+background-color: transparent;
+border-radius: 50%;
+border: 3px solid black;
+
+}
+.section1{
+
+background: linear-gradient(0deg,rgba(0,0,0,0.4),rgba(0,0,0,0.4));
+    background-image: url("2.jpeg");
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-attachment: fixed;
+    height: 460px;
+    width: 100%;
+}
+
+.touch{
+
+
+    position: absolute;
+    top: 600px;
+    background-color: transparent;
+    width: 100%;
+    height: 180px;
+
+
+
+}
+ input[type='email']{
+
+border:none;
+    border-bottom: 2px solid pink;
+    color: white;
+   position: absolute;
+   top: 850px;
+   left: 770px;
+    font-size:15px!important;
+    display: block;
+    width: 40%;
+    height: 25px;
+
+
+}
+.theme-button{
+
+     position: absolute;
+   top: 950px;
+   left: 970px;
+    font-size:15px!important;
+    display: block;
+    width: 20%;
+    height: 45px;
+    background-color: limegreen;
+     font-weight: bolder;
+    border-radius: 50px; 
+}
+.theme-button:hover{
+    background-color: black;
+    color: limegreen;
+
+
+}
+
+h9{
+
+    font-size: 45px;
+    font-family: fantasy;
+    color:crimson;
+    position: absolute;
+    top: 700px;
+    left: 730px;
+    letter-spacing: 5px;
+
+}
+
+
+}
+
+
+
+.aboutme list1 ul li
+{
+    font-weight: 700;
+}
+.skills,.works,.contact
+{
+    position: absolute;
+    top: 1050px;
+    width: 33.3%;
+    height: 300px;
+}
+.skills
+{
+    left: 0%;
+    background-image: url(../IMAGES/2.jpg);
+    background-size: 100% 100%;
+}
+.skills a
+{
+    position: absolute;
+    top: 40%;
+    left: 35%;
+    text-decoration: none;
+    font-family:'Julius Sans One', sans-serif,fantasy;
+    font-size: 50px; 
+    font-weight: bolder;
+     text-shadow: 10px 10px 5px green;
+    
+}
+.skills-bg
+{
+     background-attachment: fixed;
+    background-image: url(../IMAGES/boat.jpg);
+    width: 100%;
+    height: 1700px;
+    background-size: 100% 1000px;
+    
+}
+
+/*
+.technical h5
+{
+    font-size: 30px;
+    color: white;
+    padding-left: 5%;
+}
+.html,.css,.javascript,.jquery,.bootstrap,.python,.django
+{   
+    position: absolute;
+    top: 160px;
+    left: 5%;   
+    width: 90%;
+    height: 30px;
+    background-color: white;
+}
+.css
+{
+    top: 220px;
+}
+.javascript
+{
+    top: 280px;
+}
+.jquery
+{
+    top: 340px;
+}
+.bootstrap
+{
+    top: 400px;
+}
+.python
+{
+    top: 460px;
+}
+.django
+{
+    top: 520px;
+}
+.html div,.bootstrap div,.python div,.jquery div,.django div,.css div,.javascript div
+{
+    position: absolute;
+    top: 0px;
+    left: 0%;   
+    width: 70%;
+    height: 30px;
+    background-color: black;
+}
+*/
+
+.myskills
+{
+    font-size: 50px;
+    text-align: center;
+    color: white;
+    padding-top: 10px;
+}
+
+.heading
+{
+    position: 
+}
+.works
+{
+    left: 33.3%;
+    background-image: url(../IMAGES/camera.jpg);
+    background-size: 100% 100%;
+}
+.works a
+{
+    position: absolute;
+    top: 40%;
+    left: 35%;
+    text-decoration: none;
+    font-family:'Julius Sans One', sans-serif;
+    font-size: 50px; 
+    font-weight: bolder;
+    color: green;
+    text-shadow: 10px 10px 5px red;
+}
+
+.contact
+{
+    left: 66.6%;
+    background-image: url(../IMAGES/3.png);
+    background-size: 100% 100%;
+    
+}
+
+
+
+
+
+
+
+
+
+.contact a
+{
+    position: absolute;
+    top: 40%;
+    left: 30%;
+    text-decoration: none;
+    font-family:'Julius Sans One', sans-serif;
+    font-size: 50px;
+    font-weight: bolder;
+     text-shadow: 10px 10px 5px green;
+}
+.contactinfo
+{
+    text-align: center;
+    color: white;
+    position: absolute;
+    left: 38%;
+    top: 20px;
+    font-size: 50px;
+}
+input
+{
+    background-color: transparent;
+}
+.name,.phone,.email
+{
+    position: absolute;
+    top: 100px;
+    font-family:'Julius Sans One', sans-serif;
+    font-size: 25px;
+    font-weight: bolder;
+    color: white;
+}
+.nam,.phn,.eml
+{
+    position: absolute;
+    top: 150px;
+    width: 25%;
+    height: 50px;
+    font-size: 15px;
+}
+.nam,.name
+{
+    left: 5%;
+}
+.phn,.phone
+{
+    left: 35%;
+    
+}
+.eml,.email
+{
+    left: 65%;
+}
+.message
+{
+    position: absolute;
+    top: 240px;
+    left: 5%;
+    font-family:'Julius Sans One', sans-serif;
+    font-size: 25px;
+    font-weight: bolder;
+    color: white;
+}
+.msg
+{
+    position: absolute;
+    top: 280px;
+    left: 5%;
+    width: 85%;
+    height: 300px;
+}
+input[type='submit']
+{
+    position: absolute;
+    top: 600px;
+    left: 40%;
+    background-color: limegreen;
+    font-family: sans-serif;
+    border: 1px solid limegreen;
+    padding: 10px 20px 10px 20px;
+    font-size: 15px;
+    font-weight: bolder;
+    border-radius: 50px;
+}
+input[type='submit']:hover
+{
+    background-color: black;
+    color: limegreen;
+    
+}
+.map
+{
+    position: absolute;
+    top: 700px;
+	 left: -30px;
+    width: 100%;
+    height: 400px;
+    
+}
+#gmap_canvas
+{
+	width: 100%;
+	
+
+
+}
+.foot
+{
+    position: absolute;
+    top: 1100px;
+    width: 100%;
+    height: 400px;
+    background-color: black;
+}
+.hire
+{
+    color: limegreen;
+    text-align: center;
+    margin-top: 20px;
+    font-size: 50px;
+    font-family: 'Julius Sans One', sans-serif;
+    font-weight: 200;
+}
+.para
+{
+    color: #fff;
+    padding-top: 15px;
+    padding-left: 10%;
+    font-family: 'Julius Sans One', sans-serif;
+    font-size: 15px;
+}
+.location,.mobile,.mail,.chat
+{
+    position: absolute;
+    top: 35%;
+    width: 25%;
+    height: 100px;
+    color: white;
+}
+.location
+{   
+    left: 0px;
+     display: grid;
+    grid-template-columns: 10% 90%;
+}
+.mark
+{
+    padding-top: 10px;
+    padding-left: 30px;
+    font-size: 15px;
+}
+.address
+{   
+    padding-top: 10px;
+    padding-left: 30px;
+    font-size: 15px;
+    font-family: 'Julius Sans One', sans-serif;
+    font-weight: bold;
+}
+.mobile
+{
+    left: 25%;
+     display: grid;
+    grid-template-columns: 10% 90%;
+    
+}
+.square
+{
+    padding-top: 10px;
+    padding-left: 30px;
+    font-size: 15px;
+}
+.mobile ul li
+{
+    padding-top: 10px;
+    padding-left: 30px;
+    font-size: 15px;
+}
+.mail
+{
+    left: 50%;
+    display: grid;
+    grid-template-columns: 10% 90%;
+}
+.envo
+{
+    padding-top: 10px;
+    padding-left: 30px;
+    font-size: 15px;
+}
+.envolope
+{
+    padding-top: 10px;
+    padding-left: 30px;
+    font-size: 15px;
+    font-family: 'Julius Sans One', sans-serif;
+    font-weight: bold;
+}
+.chat
+{
+    left: 75%;
+     display: grid;
+    grid-template-columns: 10% 90%;
+}
+.comment
+{
+    padding-top: 10px;
+    padding-left: 35px;
+    font-size: 15px;
+    font-family: 'Julius Sans One', sans-serif;
+    font-weight: bold;
+}
+hr 
+{
+width:100%;
+margin-top: 200px;
+margin-right: auto;
+background-color:#666;
+opcaity: 0.5;
+}
+.footer
+{
+    position: absolute;
+    left: 30%;
+    top: 340px;
+    font-size: 15px;
+    font-family: 'Julius Sans One', sans-serif;
+    font-weight: bold;
+    color: #666;
+}
+
+i
+{
+    color:#666 ;
+}
+
+i:hover
+{
+    color: limegreen;
+}
+
+.main
+    {    
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        display: none;
+    }
+/*
+.bg
+    {
+        position: fixed;
+        width: 100%;
+        height: 100%;
+        background-color: transparent;  
+    }
+*/
+.popup
+    {
+        position: absolute;
+        width: 70%;
+        height: 1530px;
+        top: -260%;
+        left: 15%;
+        color: tomato;
+        border: 30px solid white;
+        z-index: 10;
+    }
+form
+{   background-attachment: fixed;
+    background-image: url(../IMAGES/contact1.jpg);
+    width: 100%;
+    height: 700px;
+    background-size: 100% 700px;
+    padding: 0px;
+
+}
+.close a
+    {
+        position: absolute;
+        left: 87%;
+        margin-top: -1940px;
+        color: white;
+        font-weight: bolder;
+        font-size: 40px;
+    }
+
+.set {
+    width:100%;
+    height: 100%;
+    color: aliceblue;
+}
+.set h5 {
+    width: 20%;
+    height: 40px;
+    float: left;
+}
+.set div {
+    width: 80%;
+    height: 40px;
+}
+.latest-news{
+    list-style: none;
+    position: absolute;
+    top: 1250px;
+    left: 150px;
+    font-family: cursive;
+    font-size: 35px;
+    color: white;
+}
+.latest-news li{
+    margin: 10px 0px;
+
+}
+.latest-news span{
+    color:lightgreen;
+
+}
+ img{
+
+padding: 20px;
+     opacity: .9;
+     border: 4px solid black;
+     box-shadow: 10px 10px 10px aqua;
+     transition: transform 3s;
+
+     
+}
+img:hover{
+    transform: scale(-.6);
+    
+}
+
+.figure2{
+     border: 4px solid black;
+    background-image: url('4.jpg');
+
+
+}
+
+.nam{
+
+    color: white;
+    font-size: 20px;
+    font-family: sans-serif;
+
+
+}
+.phn{
+
+    color: white;
+    font-size: 20px;
+    font-family: sans-serif;
+
+
+}
+     
+     .eml{
+
+    color: white;
+    font-size: 20px;
+    font-family: sans-serif;
+
+
+}
+     
+     .msg{
+
+    color: white;
+    font-size: 20px;
+    font-family: sans-serif;
+    background-color: transparent;
+
+
+}
+            
+
+
+
+
+
